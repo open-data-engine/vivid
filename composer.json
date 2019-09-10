@@ -1,0 +1,31 @@
+{
+    "name": "ode/vivid",
+    "type": "Data-engine",
+    "description": "Open data engine implementaion in PHP",
+    "keywords": [ "Data", "Engine", "ORM", "Open" ],
+    "homepage": "https://github.com/open-data-engine/vivid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Kruining",
+            "email": "chris@kruining.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^5.1"
+    },
+    "provide": {},
+    "config": {},
+    "autoload": {
+        "psr-4": {
+            "Ode\\Vivid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spec\\Ode\\Vivid\\": "spec/"
+        }
+    }
+}
